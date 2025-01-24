@@ -18,7 +18,7 @@ namespace Services
             }
         }
 
-        public void Create(Curso curso) 
+        public void Insert(Curso curso) 
         {
             using (var context = new EscuelaContext())
             {
